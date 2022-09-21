@@ -2,6 +2,7 @@ package com.sampleProject;
 
 import com.sampleProject.assignments.Assignment5;
 import com.sampleProject.assignments.Assignment6;
+import com.sampleProject.assignments.Assignment7;
 
 public class MainClass {
 
@@ -36,6 +37,11 @@ public class MainClass {
 		boolean res1 = Assignment6.isWordPresent(s1, str4);
 
 		System.out.println("the given string contains in the sentense : " + res1);
+		
+        Assignment7.swapStrings();
+        
+        Assignment7.removeArray(); 
+		
 	}
 
 }
